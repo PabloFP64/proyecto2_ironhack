@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Hangman</h1>
+    <div id="word-display"></div>
+    <div id="guesses-left">6</div>
+    
+    <div id="letters_top">
+      <button class="letter" onclick="guessLetter('q')">Q</button>
+      <button class="letter" onclick="guessLetter('w')">W</button>
+      <button class="letter" onclick="guessLetter('e')">E</button>
+      <button class="letter" onclick="guessLetter('r')">R</button>
+      <button class="letter" onclick="guessLetter('t')">T</button>
+      <button class="letter" onclick="guessLetter('y')">Y</button>
+      <button class="letter" onclick="guessLetter('u')">U</button>
+      <button class="letter" onclick="guessLetter('i')">I</button>
+      <button class="letter" onclick="guessLetter('o')">O</button>
+      <button class="letter" onclick="guessLetter('p')">P</button>
+
+
+    </div>
+    <div id="letters_mid">
+    
+      <button class="letter" onclick="guessLetter('a')">A</button>
+      <button class="letter" onclick="guessLetter('s')">S</button>
+      <button class="letter" onclick="guessLetter('d')">D</button>
+      <button class="letter" onclick="guessLetter('f')">F</button>
+      <button class="letter" onclick="guessLetter('g')">G</button>
+      <button class="letter" onclick="guessLetter('h')">H</button>
+      <button class="letter" onclick="guessLetter('j')">J</button>
+      <button class="letter" onclick="guessLetter('k')">K</button>
+      <button class="letter" onclick="guessLetter('l')">L</button>
+      <button class="letter" onclick="guessLetter('ñ')">Ñ</button>
+
+    </div>
+    <div id="letters_bot">
+      <button class="letter" onclick="guessLetter('z')">Z</button>
+      <button class="letter" onclick="guessLetter('x')">X</button>
+      <button class="letter" onclick="guessLetter('c')">C</button>
+      <button class="letter" onclick="guessLetter('v')">V</button>
+      <button class="letter" onclick="guessLetter('b')">B</button>
+      <button class="letter" onclick="guessLetter('n')">N</button>
+      <button class="letter" onclick="guessLetter('m')">M</button>
+
+    </div>
+    <div id="result"></div>
+    <button id="retry" onclick="resetGame()" style="display: none;">Retry</button>
+    <script src="script.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #word-display {
+    font-size: 2em;
+    text-align: center;
+    margin: 1em;
+  }
+  
+  #guesses-left {
+    font-size: 2em;
+    text-align: center;
+    margin: 1em;
+  }
+  
+  #letters_top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #letters_mid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #letters_bot {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .letter {
+    font-size: 1.5em;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+  }
+  
+  .letter:hover {
+    background-color: gray;
+    color: white;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+  }
+  
+
+  
+  #result {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #retry {
+    display: none;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #3F88C5;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #retry:hover {
+    background-color: #2F6598;
+  }
+  
+  
+  
